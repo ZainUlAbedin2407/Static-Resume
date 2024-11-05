@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="resume">
+      <!-- Left Section -->
+      <div class="left-section">
+        <div class="information-container">
+          <div class="img-container">
+            <img src="./Picture.png" alt="Profile" class="profile-pic" />
+          </div>
+          <h1 id="name-on-mobile-screen">Zain Ul Abedin</h1>
+          <h3 id="profession-on-mobile-screen">Full Stack Developer</h3>
+          <section>
+            <h3 class="heading">CONTACT</h3>
+            <div class="line"></div>
+            <p class="phone-number">+92 320 600 1270</p>
+            <p class="email">
+              <a href="mailto:zainulabedin2407@gmail.com"
+                >zainulabedin2407@gmail.com</a
+              >
+            </p>
+            <p class="linkedin">
+              Linkedin:
+              <a
+                href="https://www.linkedin.com/in/zain-ul-abedin-75aa652b6"
+                target="_blank"
+              >
+                Zain Ul Abedin
+              </a>
+            </p>
+            <div class="line"></div>
+          </section>
+
+          <section>
+            <h3 class="heading">Education</h3>
+            <h4 class="sub-headings">Saylani Mass IT training</h4>
+            <p class="course">MERN Stack Development (On going)</p>
+            <div class="line"></div>
+            <h4 class="sub-headings">Governor House</h4>
+            <p class="course">Artificial Intelligence Engineering (On going)</p>
+            <div class="line"></div>
+            <h4 class="sub-headings">SM Govt Science College</h4>
+            <p class="course">Intermediate in Computer Science (On going)</p>
+            <div class="line"></div>
+            <h4 class="sub-headings">Hasani Academy School</h4>
+            <p class="course">Matriculation in Science</p>
+          </section>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <h1 id="name">Zain Ul Abedin</h1>
+        <h3 id="profession">Full Stack Developer</h3>
+        <div class="right-section-line"></div>
+        <section>
+          <p id="objective">
+            Ambitious learner pursuing Cloud Computing and Generative AI
+            Engineering through the Governor Initiative for AI. Currently
+            developing my skills in MERN Stack Development at Saylani Mass IT,
+            with a foundation in HTML, CSS, and JavaScript. Aiming to become a
+            Full Stack Developer and Software Engineer, driven by a passion for
+            technology and innovation, eager to apply my skills to impactful
+            projects.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="heading heading-bg">Projects</h3>
+          <h4 class="sub-headings right-sub-head">UI Design:</h4>
+          <p class="project">
+            Deploy URL:<a
+              href="https://zainulabedin2407.github.io/Positivus"
+              target="_blank"
+              >Positvus</a
+            >
+          </p>
+          <div class="right-section-line"></div>
+          <h4 class="sub-headings right-sub-head">Amazon Clone:</h4>
+          <p class="project amazon">
+            Deploy URL:<a
+              href="https://zainulabedin2407.github.io/Web-development-projects/Assignment_8-AmazonClone/"
+              target="_blank"
+              >Amazon Clone</a
+            >
+          </p>
+        </section>
+
+        <section id="skills-section">
+          <h3 class="heading heading-bg">Skills</h3>
+          <h4 class="sub-headings right-sub-head">Professional Skills:</h4>
+          <ul id="skills-list" class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Github</li>
+          </ul>
+        </section>
+        <button id="hide-show" onclick="toggleSkills()">Hide Skills</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
