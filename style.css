@@ -188,6 +188,10 @@ body {
   #name {
     display: none;
   }
+  
+  #profession {
+    display: none;
+  }
 
   #name-on-mobile-screen{
     display: block;
@@ -195,10 +199,6 @@ body {
 
   #profession-on-mobile-screen{
     display: block;
-  }
-
-  #profession {
-    display: none;
   }
 
   .left-section {
