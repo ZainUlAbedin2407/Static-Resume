@@ -16,4 +16,4 @@ This project is an interactive static resume built as part of my first milestone
 - **Positivus UI Design**: [Live Demo](https://zainulabedin2407.github.io/Positivus)
 - **Amazon Clone**: [Live Demo](https://zainulabedin2407.github.io/Web-development-projects/Assignment_8-AmazonClone/)
 
-Feel free to explore the code and see how I bring together my Full Stack Development and AI Engineering skills!
+Feel free to explore the code and see how I bring together my Full Stack Development and AI Engineering skills!"# Static-Resume" 
